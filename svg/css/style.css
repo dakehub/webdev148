@@ -1,0 +1,62 @@
+body{
+	position: relative;
+}
+
+
+.svg-1{
+	height: 600px;
+	margin: 50px auto;
+}
+
+.st0 {
+	fill: #fff
+}
+
+.st1 {
+	fill: none;
+	stroke: #231f20;
+	stroke-width: 50;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-miterlimit: 10
+}
+
+#top{
+	animation: top 1s linear forwards alternate;
+}
+
+@keyframes top {
+	0% {
+		transform: translateX(0);
+	 }
+	 100% {
+		transform: translateX(-680px);
+	 }
+}
+
+
+#middle{
+	animation: middle 1s linear forwards alternate 0.5s;
+}
+@keyframes middle {
+	0% {
+		transform: translateX(0);
+	 }
+	 100% {
+		transform: translateX(-680px);
+	 }
+}
+
+/*
+#door{
+	
+	animation: door 3s linear forwards alternate infinite 0.8s;
+}
+@keyframes door {
+	0% {
+		transform:rotate(360deg)
+	 }
+
+}
+*/
+
